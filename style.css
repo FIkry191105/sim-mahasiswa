@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { margin:0; font-family: Arial, sans-serif; background:#f2f4f8; color:#222; }
+.navbar { background:#1f3a68; color:#fff; padding:12px 24px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px; }
+.navbar a { color:#cfe0ff; text-decoration:none; font-weight:bold; }
+.navbar a.aktif { color:#fff; text-decoration:underline; }
+.brand { font-size:18px; font-weight:bold; }
+.btn-logout { background:#d9534f; color:#fff !important; padding:5px 12px; border-radius:4px; margin-left:8px; }
+.container { max-width:900px; margin:24px auto; background:#fff; padding:24px; border-radius:8px; box-shadow:0 2px 6px rgba(0,0,0,.1); }
+h2 { margin-top:0; }
+table { width:100%; border-collapse:collapse; margin-top:12px; }
+th, td { border:1px solid #ddd; padding:10px; text-align:left; }
+th { background:#1f3a68; color:#fff; }
+tr:nth-child(even) { background:#f7f9fc; }
+.form-group { margin-bottom:14px; }
+label { display:block; margin-bottom:4px; font-weight:bold; }
+input[type=text], input[type=password], input[type=email], select { width:100%; padding:9px; border:1px solid #bbb; border-radius:4px; }
+.btn { display:inline-block; padding:8px 16px; border:none; border-radius:4px; cursor:pointer; text-decoration:none; color:#fff; font-size:14px; }
+.btn-primary { background:#2c7be5; }
+.btn-warning { background:#f0ad4e; }
+.btn-danger { background:#d9534f; }
+.btn-secondary { background:#777; }
+.alert { padding:10px 14px; border-radius:4px; margin-bottom:14px; }
+.alert-error { background:#fde2e1; color:#a12622; border:1px solid #f5b5b3; }
+.alert-success { background:#dff3e0; color:#1e6b25; border:1px solid #a9d8ac; }
+.login-box { max-width:380px; margin:60px auto; }
+.inline { display:inline; }
